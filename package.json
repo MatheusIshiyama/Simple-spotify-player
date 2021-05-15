@@ -1,5 +1,5 @@
 {
-    "name": "spotify-clone",
+    "name": "simple-spotify-player",
     "version": "1.0.0",
     "main": "src/index.js",
     "scripts": {
@@ -7,7 +7,7 @@
         "build": "next build",
         "start": "next start"
     },
-    "repository": "https://github.com/MatheusIshiyama/Spotify-clone.git",
+    "repository": "https://github.com/MatheusIshiyama/Simple-spotify-player.git",
     "author": "Matheus Ishiyama <matheus.ishiyama@outlook.com>",
     "license": "MIT",
     "dependencies": {
