@@ -16,7 +16,7 @@ export function useAuth(code: string) {
                 setAccessToken(response.data.accessToken);
                 setRefreshToken(response.data.refreshToken);
                 setExpiresIn(response.data.expiresIn);
-                window.history.pushState({}, null, "/auth");
+                window.history.pushState({}, null, "/dashboard");
             })
             .catch(() => {
                 router.push("/");
@@ -33,7 +33,7 @@ export function useAuth(code: string) {
                 .then((response) => {
                     setAccessToken(response.data.accessToken);
                     setExpiresIn(response.data.expiresIn);
-                    window.history.pushState({}, null, "/auth");
+                    window.history.pushState({}, null, "/dashboard");
                 })
                 .catch(() => {
                     router.push("/");
